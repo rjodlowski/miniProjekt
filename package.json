@@ -1,0 +1,16 @@
+{
+    "name": "miniprojektheroku",
+    "version": "1.0.0",
+    "description": "mini projekt Rafał Jodłowski",
+    "main": "server.js",
+    "dependencies": {
+        "express": "^4.17.1"
+    },
+    "devDependencies": {},
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node server.js"
+    },
+    "author": "Rafał Jodłowski 3Ic",
+    "license": "ISC"
+}

@@ -1,0 +1,139 @@
+html, body {
+    margin: 0 auto;
+    height: 100vh;
+    width: 100vw;
+}
+
+.header {
+    height: 50px;
+    width: 100% - 30px;
+    background-color: #2F43A4;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 30px;
+}
+
+#header > a {
+    font-size: 20px;
+    padding: 0 10px 3px 10px;
+    color: white;
+}
+
+#header2 > a {
+    font-size: 20px;
+    padding: 0 10px 3px 10px;
+}
+
+#pageName {
+    width: 100%;
+    height: 170px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 150px;
+    color: #D5D3D5;
+    user-select: none;
+}
+
+#pageContents {
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;    
+    margin-top: 50px
+}
+
+input, select {
+    margin: 5px 0 5px 0;
+}
+
+label[for="login"] {
+    margin-right: 30px;
+}
+
+label[for="haslo"] {
+    margin-right: 7px;
+}
+
+label[for="wiek"] {
+    margin-right: 34px;
+}
+
+label[for="uczen"]{
+    margin-right: 20px;
+}
+
+label[for="plec"]{
+    margin-right: 40px;
+}
+
+select, select > option {
+    width: 165px;
+}
+
+input[type="select"], input[type="select"] > option {
+    size:100px;
+}
+
+button {
+    margin: 5px 0 5px 0;
+    width: 100%;
+}
+
+/* admin - show users page */
+.detailsBody {
+    background-color: #212022;
+}
+
+.detailsA {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.detailsA > a {
+    margin-left: 20px;
+    font-size: 20px;
+    padding-bottom: 3px;
+    color: white;
+}
+
+.detailsTableDiv {
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+.detailsTable {
+    width: 97%;
+}
+
+.detailsTable td {
+    border: 1px solid yellow;
+    color: white;
+    padding: 10px;
+}
+
+.sortForm {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.sortForm label {
+    margin-left: 20px;
+    font-size: 20px;
+    padding-bottom: 3px;
+    color: white;
+}
+
+
